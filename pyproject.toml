@@ -1,0 +1,17 @@
+[project]
+name = "llm-chat"
+version = "0.1.0"
+description = "Add a simple LLM Chat Application on Streamlit"
+authors = [
+    {name = "mishrasunny-coder",email = "mishra.sunny@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9,<4.0"
+dependencies = [
+    "llama-index (>=0.12.11,<0.13.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
